@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> XIAOMI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image" href="часы.lnk">
+ <style>
+* {
+    box-sizing:border-box  ;
+  }
+.header {
+ /*  background-color: rgb(151, 238, 238);
+ width: 1000px;*/
+ box-shadow: 5px 5px 9px 9px grey;
+ 
+  background-color: rgb(151, 238, 238);
+  transition:background-color .3s linear;
+  width: 1000px;
+}
+.header:hover{
+  background-color:rgba(33, 28, 28, 0.5) ; 
+}
+    
+
+
+h1 {
+    font-size: 100px;
+    color: rgb(245, 26, 88);
+    text-align: center;
+    box-shadow: 5px 5px 9px 9px grey;
+}
+body {
+    background-color: rgb(153, 188, 176);
+    
+}
+.dom {
+
+
+display:box;
+}
+.name_link {
+color: rgb(7, 3, 3);
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: flex;
+justify-content: space-between;
+text-transform: uppercase;
+margin-top: 60px;
+margin-right: 25px;
+}
+/*.name_link:hover {
+    background-color: rgb(16, 103, 73);
+}*/
+.il:hover {
+    background-color:rgb(245, 26, 88) ;
+    color: #fff;
+    width: 130px;
+    height: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 25px;
+} transition:background-color .5s linear;
+ul {
+    margin: 0;
+    
+}
+li {
+    padding-right: 100px;
+}
+
+
+.conteiner {
+   
+    background-color:rgba(33, 28, 28, 0.5) ; 
+    box-shadow: 5px 5px 9px 9px grey;
+    border-radius: 20px;
+    width: 400px;
+    margin: 0 ;
+    display:inline-block;
+   margin-right: 150px;
+   margin-left: 30px;
+   margin-top: 40px;
+  padding-bottom: 30px;
+ margin-top: 60px;
+}
+.conteiner-2 {
+  
+    background-color:rgba(77, 124, 244, 0.5) ;
+    box-shadow: 5px 5px 9px 9px grey;
+    border-radius: 20px;
+    width: 400px;
+   margin-top: 20px;
+   display:inline-block;
+  margin-left: 0px;
+  padding-bottom: 30px;
+}
+.conteiner-3 {
+    background-color:rgba(231, 102, 102, 0.5) ;
+    box-shadow: 5px 5px 9px 9px grey;
+    border-radius: 20px;
+    width: 400px;
+   margin-top: 20px;
+   display:inline-block;
+ margin-left: 30px;
+ padding-bottom: 30px;
+}
+.conteiner-4 {
+    background-color:rgba(228, 90, 240, 0.5) ;
+    box-shadow: 5px 5px 9px 9px grey;
+    border-radius: 20px;
+    width: 400px;
+   margin-top: 20px;
+   display:inline-block;
+margin-left: 150px;
+margin-top: 50px;
+padding-bottom: 30px;
+}
+.images {
+margin-left: 55px;
+border: solid 1px rgb(18, 5, 5);
+border-radius: 30px;
+}
+.titles {
+   padding: 10px 10px 20px 20px;
+}
+.sub-titles {
+    font-size: 19px;
+   padding-left: 20px;
+}
+.button {
+ /*   background-color: orangered;
+	 background-color: orangered;
+    width: 200px;
+    height: 50px;
+    border: solid 1px black;
+    border-radius: 5px;
+    color: :rgba(239, 226, 226, 0.5);
+    margin-left: 170px;*/
+ 
+    text-align: center; 
+    font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    height: 50px;
+    margin-left: 170px;
+    
+    padding: 8px 10px; 
+    border: solid 1px #050303; 
+    border-radius: 5px;
+    color: rgb(243, 238, 237); 
+    background:orangered;
+    tansition: all .4s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: uppercase;
+}
+.button:hover {
+    color: rgb(13, 11, 11);
+    background: rgb(233, 144, 85);
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+
+
+
+
+
+
+
+.cena {
+    font-size: 30px;
+    margin-left: 200px;
+}
+.menu {
+
+}
+.menu-1 {
+    color: rgb(249, 244, 239);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase; 
+    margin-top: 40px;
+}
+ul {
+   
+    
+}
+il {
+    
+}
+.content {
+    
+    background-color: rgb(205, 242, 237);
+    border-radius: 10px;
+    margin: 20px 10px 20px 30px;
+    padding: 10px 30px 20px 30px;
+}
+.mybtn {
+    
+  /*  background-color: rgb(60, 233, 21);
+	padding: 10px 10px 10px 10px;
+    width: 150px;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 50px;
+    color: :rgba(239, 226, 226, 0.5); 
+  margin: 0 50px 10px 40px;*/
+  
+    text-align: center; 
+    width: 150;
+    height: 50px;
+    margin-left: 40px;
+    margin-right: 150px;
+    padding: 8px 10px; 
+    border: solid 1px #050303; 
+    border-radius: 50px;
+    color: rgb(5, 2, 1); 
+    background:rgb(8, 202, 37);
+    tansition: all .4s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 	
+    text-transform: uppercase;
+}
+.mybtn:hover {
+    color: #fff;
+    background: #333;
+    tansition: all .3s linear;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear; 
+}
+.content-2 {
+
+  
+background-color: rgb(205, 242, 237);
+border-radius: 10px;
+margin: 20px 10px 20px 30px;
+padding: 10px 30px 20px 10px;
+margin-top: 30px;
+
+}
+footer {
+    background-color: rgb(37, 33, 33);
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+}
+.message {
+
+width: 350px;
+height: 250px;
+}
+
+.txt {
+width:170px ;
+height:50px ;
+margin: 10px 800px 10px 10px;
+padding-top: 30px;
+}
+.btn {
+    width:100px ;
+    height:30px ;
+    margin: 0px 800px 30px 10px;
+    padding bottom:  20px ;
+    background:orangered;
+    color:white;
+}
+.btn:hover {
+    background-color: rgb(37, 33, 33);
+}
+.cont {
+    width: 350px;
+height: 250px;
+   
+}
+ .c {
+     color: aqua;
+ }   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+ </style>
+
+ 
+</head>
+
+<header class="header">
+<hr>
+<h1 id="id01" >Часы Xiaomi</h1>
+<hr>
+<!--<script>
+  var element = document.getElementById("id01");
+  element.innerHTML = "New Heading";
+  </script>-->
+</header>
+
+<body>
+ <section>
+<div class="dom">
+<!--<h5 class="name" > Главная Новинки Цена</h5>-->
+<ul class="name_link"  >
+<il class="il">Главная</il>
+<il class="il">Новинки</il>
+<il class="il">Цены</il>
+<il class="il" >Скидки</il>
+<il class="il" >Акции</il>
+</ul>
+
+</div>
+
+
+<div class="conteiner">
+  <h3 class="titles" > Умные часы Amazfit GTR 2 Classic Сталь<br>
+    AMF-6972596101925</h3>
+<img class="images" src="xiaomi.jpg" alt="картинка" width="280" height="250px"/>
+<h4 class="sub-titles" >Характеристики</h4>
+<ul>
+<li>Дисплей: 1,39", 454х454</li>
+<li>Тип матрицы: AMOLED</li>
+<li>Датчик освещённости: Да</li>
+<li>Датчик сердечного ритма: Да</li>
+<li>Время автономной работы
+  до 38 дней</li>
+</ul>
+
+<p class="cena">14 490 руб</p> 
+<button class="button">Купить</button>
+
+
+
+</div>
+<div class="conteiner-2">
+  <h3 class="titles" > Умные часы Amazfit GTR 2 Classic Сталь<br>
+    AMF-6972596101925</h3>
+<img class="images" src="clock.lnk" alt="картинка" width="280" height="250px"/>
+<h4 class="sub-titles" >Характеристики</h4>
+<ul>
+<li>Дисплей: 1.55" 354x306</li>
+<li>Тип матрицы: AMOLED</li>
+<li>Датчик освещённости: Да</li>
+<li>Датчик сердечного ритма: Да</li>
+<li>Время автономной работы
+  до 38 дней</li>
+</ul>
+<p class="cena">17 800 руб</p> 
+<button class="button">Купить</button>
+</div>
+<div class="conteiner-3">
+  <h3 class="titles" >Умные часы Amazfit GTS 2е Розовый <br>
+    AMF-6972596101925</h3>
+<img class="images" src="часы.lnk" alt="картинка" width="280" height="250px"/>
+<h4 class="sub-titles" >Характеристики</h4>
+<ul>
+<li>Дисплей: 1.55" 354x306</li>
+<li>Тип матрицы: AMOLED</li>
+<li>Датчик освещённости: Да</li>
+<li>Датчик сердечного ритма: Да</li>
+<li>Время автономной работы
+  до 38 дней</li>
+</ul>
+<p class="cena">19 990 руб</p> 
+<button class="button">Купить</button>
+</div>
+<div class="conteiner-4">
+  <h3 class="titles" > Умные часы Amazfit GTR 2 Classic Сталь<br>
+    AMF-6972596101925</h3>
+<img class="images" src="часики.lnk" alt="картинка" width="280" height="250px"/>
+<h4 class="sub-titles" >Характеристики</h4>
+<ul>
+<li>Дисплей: 1.55" 354x306</li>
+<li>Тип матрицы: AMOLED</li>
+<li>Датчик освещённости: Да</li>
+<li>Датчик сердечного ритма: Да</li>
+<li>Время автономной работы
+  до 38 дней</li>
+</ul>
+
+
+<p class="cena">21 360 руб</p> 
+
+<button class="button">Купить</button>
+</div>
+<br>
+<div class="menu">
+  <!--<h5 class="name" > Главная Новинки Цена</h5>-->
+  <ul class="menu-1"  >
+ <button class="mybtn"> <il>Описание</il></button>
+ <button class="mybtn"> <il>Характеристики</il></button> 
+  <button class="mybtn"><il>Наличие </il></button> 
+</ul>
+  
+</div>
+
+<div class="content">
+  <h3 > AMOLED-дисплей</h3>
+<p>Задачи циферблата умных часов Amazfit GTS 2е выполняет высокочеткий AMOLED-дисплей диагональю 1.65 дюйма. Высокая плотность пикселей и большой запас яркости обеспечивают детализацию и контрастность картинки при любом внешнем освещении.
+
+Изменяемый стиль Amazfit GTS 2e
+
+Программное обеспечение умных часов Amazfit GTS 2е дает владельцу возможность менять оформление циферблата на свое усмотрение. Десятки уникальных вариантов, представленных в свободном доступе, помогут подчеркнуть индивидуальность пользователя и смогут подстроиться под любой стиль одежды.
+
+Мониторинг здоровья
+
+Умные часы Amazfit GTS 2е оснащены: датчиком уровня кислорода в крови; пульсометром. С их помощью девайс осуществляется круглосуточный мониторинг здоровья, в том числе оценивает работу сердечно-сосудистой системы. Полученные данные устройство сопоставляет с системой оценки здоровья PAI и, если нужно, уведомляет владельца о необходимости отдыха.
+
+Управление голосом
+
+В оснащение умных часов Amazfit GTS 2e интегрирован чувствительный всенаправленный микрофон. Благодаря этому, девайсом можно управлять с помощью голоса, в том числе вести поиск нужной информации.
+
+Стойкие к любым условиям
+
+Корпус умных часов Amazfit GTS 2е эффективно защищен от пыли, песка и влаги. В том числе, девайс может выдерживать давление воды в 5 АТМ. Благодаря такой защите, часы будут сохранять работоспособность и эффективность даже в самых экстремальных ситуациях.
+
+Мощный аккумулятор
+
+В тонком корпусе умных часов Amazfit GTS 2е размещен литиевый аккумулятор высокой плотности. Его емкость 246 мАч позволяет умному девайсу выдерживать активные нагрузки в течение 14 дней. А при работе в режиме энергосбережения время работы может составить до 24 дней всего на одном заряде.</p>
+</div>
+<div class="content-2">
+  <h3 class="titles"  >Характеристики</h3>
+  <h4 class="titles"  >Основные характеристики</h4>
+  <ul>
+<li>Дисплей
+  1,65", 348x442</li>
+  <hr>
+<li>Тип матрицы
+  AMOLED</li>
+  <hr>
+<li>Датчик освещённости
+  Да</li><hr>
+<li>Датчик сердечного ритма
+  Да</li><hr>
+<li>Компас
+  Да</li><hr>
+<li>Время автономной работы
+  до 24 дней</li><hr>
+<li>Время зарядки (ч)
+  2</li><hr>
+<li>Беспроводное подключение
+  Bluetooth 5.0</li><hr>
+<li>Поддерживаемые ОС
+  Android, iOS</li><hr>
+<li>Приложение
+  Zepp</li><hr>
+  </ul>
+
+
+
+  
+</section>
+<footer>
+<b>Сайт разработал Фролов Вадим</b>
+  <br>
+  <div class="cont">
+  <p class="c">Контакты для связи:</p>
+  <ul>
+<li>почта: xiaomi@rambler.com</li>
+<li>+7 495 5555555</li>
+
+  </ul>
+</div>
+<br>
+  <div class="message">
+  <p class="c" >Введите ваш отзыв:</p>
+  <textarea class="txt"> Сообщение...</textarea>
+  <button class="btn"> Отправить</button> 
+</div>
+</footer>
+</body>
+<script src="index.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
